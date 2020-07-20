@@ -1,4 +1,4 @@
-package util;
+package util.browser;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -17,7 +17,6 @@ public class BrowserProperties {
         Properties properties = readProperties();
         try ( OutputStream output = new FileOutputStream(PROPERTIES_PATH) ) {
             properties.clear();
-            properties.put("application.opened.by.first.time", "true" );
             properties.put("browser.selected.option.headless", "false" );
             properties.put("browser.selected.name", "chrome" );
             properties.put("browser.selected.wait.time", "10" );

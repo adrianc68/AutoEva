@@ -1,4 +1,7 @@
-package util;
+package util.system;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SystemInformation {
 

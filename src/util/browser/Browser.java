@@ -3,7 +3,6 @@ package util.browser;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import util.BrowserProperties;
 
 public class Browser {
     protected final int WAIT_TIME_IN_SECONDS;
